@@ -1,0 +1,22 @@
+{
+    "puntosAtencion": [{
+        "nombreSede": "Sede la 50",
+        "direccionSede": "(Calle 50-Cra.25)",
+        "modalidad": "Jornada completa"
+    }, {
+        "nombreSede": "Edificio Colmenares",
+        "direccionSede": "(Calle 50 # 25 - 107 - Oficina 212)",
+        "modalidad": "Jornada completa"
+    }],
+    "lineasAtencion": [{
+        "nombreSede": "Centro de información",
+        "telefonos": "8783111",
+        "extensiones": "Ext. 1117-1338-1353",
+        "correo": "creditos.comercial@confa.co"
+    }, {
+        "nombreSede": "Área comercial",
+        "telefonos": "8748680",
+        "extensiones": "Ext. 2505-2504",
+        "correo": "creditos.comercial@confa.co"
+    }]
+}

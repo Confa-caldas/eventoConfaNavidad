@@ -1,0 +1,22 @@
+.table.table-bordered {
+  text-align: center;
+  font-size: 13px;
+  line-height: 14px;
+  border-collapse: separate;
+  border-spacing: 0 5px;
+  padding: 0px;
+}
+table.table-bordered > thead > tr > th {
+  border: 1px solid #fff;
+  background-color: #ff2b81;
+  color: #fff;
+  padding: 6px;
+  vertical-align: middle;
+}
+table.table-bordered > tbody > tr > td {
+  border: 1px solid #ff2b81;
+  background-color: #fff;
+  color: #777777;
+  padding: 4px;
+  vertical-align: middle;
+}

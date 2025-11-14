@@ -1,0 +1,32 @@
+<div *ngIf="loading">
+    <app-loading></app-loading>
+</div>
+
+<div class="container position-relative">
+    <div class="navbar-welcome pt-2 pb-2">
+
+        <div class="row mr-0 ml-0 d-flex flex-row justify-content-between">
+            <div class="content-welcome col-sm-6 p-0 pt-2 pb-2">
+                <div class="card">
+                    <div class="row no-gutters">
+
+                        <div *ngIf="!showButtons && !login" class="card-body p-0 pt-1 pb-1">
+                            <h2 class="text-education col-md-12 p-0">Listado de Personas en Alojamiento</h2>
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+
+<!-- Debe de ir dentro del router-outlet para que detecte las rutas activatedRouter -->
+<!-- Modal Content -->
+<app-modal-content></app-modal-content>

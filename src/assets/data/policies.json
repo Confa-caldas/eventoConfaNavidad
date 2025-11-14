@@ -1,0 +1,29 @@
+{
+    "imagePolicies": "assets/img/politicaDatos.png",
+    "informationalMessage": "Tómate un momento para leer nuestra",
+    "imageConfa": "assets/img/logo_reverse.png",
+    "tratamientoDeDatos": {
+        "title": "Política de tratamiento de datos",
+        "subtitle": "Los datos personales almacenados y recolectados en la base de datos de Confa, son y serán utilizados en el desarrollo de las funciones legales y estatutarias. Te recomendamos leerlos y aceptarlos al final de texto.",
+        "titleBody": "Política de Habeas Data:",
+        "paragraphs": [
+            { "paragraph": "Acepto todos los requisitos y recomendaciones. Así mismo, autorizo de manera libre, previa, expresa e informada a la Caja de Compensación Familiar de Caldas, Confa para que trate mis datos personales o sensibles que llegase a recolectar, para procesarla, recolectarla, almacenarla, usarla, circularla, suprimirla, compartirla, actualizarla, transmitirla y transferirla de acuerdo con los términos y condiciones de las políticas de tratamiento vigentes (www.confa.co), con el fin de hacer posible la presentación de los servicios propios, reportes a autoridades de control y vigilancia y para uso de fines administrativo, comercial, de publicidad y contacto frente a los titulares de los mismos." },
+            { "paragraph": "Como titular de la información tengo derecho a consultar, conocer, actualizar y rectificar mis datos personales, ser informado sobre el uso que se ha dado a los mismos en el momento que los solicite, presentar quejas, revocar la autorización y/o solicitar la supresión de mis datos en los casos en que sea procedente y acceder en forma gratuita a los mismos, a través de las líneas de atención 8783111 ext 2790 o al correo proteccion.datos@confa.co. Conozco que como titular de datos sensibles no estoy obligado a autorizar el tratamiento." },
+            { "paragraph": "Autorización para solicitud de crédito:" },
+            { "paragraph": "*Con la firma de la presente solicitud declaramos expresamente que conocemos todas las cláusulas contenidas en esta solicitud de las misma forma autorizamos a Confa o a quien delegue para reportar, procesar, solicitar y divulgar la información a las Centrales de Información Financiera, la cual administra la asociación bancaria identidad financiera de Colombia o a cualquier otra entidad que maneje o administre bases de datos con los mismos fines, la información referente a nuestro compromiso comercial." },
+            { "paragraph": "*También autorizo a Confa para efectuar el primer desembolso del (los) producto (s) mediante abono a mi cuenta corriente o de ahorros, en efectivo o mediante giro de cheque." },
+            { "paragraph": "*Declaro bajo la gravedad de juramento y con conocimiento de las responsabilidades que ello implica, que toda la información relacionada en el presente formulario, en el formulario de SOLICITUD DE CRÉDITO PERSONAL y en la documentación que lo soporta corresponde rigurosamente a la verdad y es susceptible de comprobación." },
+            { "paragraph": "*Manifiesto de manera libre, expresa, inequívoca, voluntaria e informada que, AUTORIZO a ASOCAJAS CONFA para que realice la validación de mi identidad por medio de mis huellas dactilares contra las bases de datos biométrica de la Registraduría Nacional del Estado Civil, con el fin de adelantar EL ACTUAL TRÁMITE. La información biométrica consultada por ASOCAJAS CONFA en las bases de datos de la Registraduría Nacional del Estado Civil, no podrá ser almacenada, ni utilizada para complementar otras bases de datos. Lo anterior, en cumplimiento de lo establecido en la Ley 1581 de 2012 y demás normas que sean aplicables en la materia. Por último, manifiesto que he sido informado sobre la política de Privacidad y Confidencialidad para la Administración de Datos personales." }
+
+        ]
+    },
+    "condicionesDeUsoDelServicio": {
+        "title": "Condiciones de uso del servicio",
+        "subtitle": "Te presentamos los Términos y Condiciones bajo las cuales Confa realizará la prestación del servicio de créditos hipotecarios y de consumo a través de nuestro Portal Web. Debes aceptarlos para poder continuar.",
+        "paragraphs": [
+            { "paragraph": "Debes estar  afiliado a la caja." },
+            { "paragraph": "La empresa para la cual trabajas debe estar al día en pago de aportes." },
+            { "paragraph": "Se cuenta con un cobro del estudio de crédito para montos inferiores a 1 millón." }
+        ]
+    }
+}

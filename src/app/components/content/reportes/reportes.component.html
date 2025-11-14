@@ -1,0 +1,55 @@
+<div class="container navbar-welcome p-4 fondo2">
+  <!-- <div class="center">
+    <div class="texto">
+      <strong>Reporte Asistencia</strong>
+    </div>
+    <div class="table-responsive-md">
+      <table class="table table-bordered" style="border: none">
+        <thead>
+          <tr>
+            <th scope="col" style="padding-top: 10px; padding-bottom: 10px">
+              Tipo Asistente
+            </th>
+            <th scope="col" style="padding-top: 10px; padding-bottom: 10px">
+              Cantidad
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let tipo of this.reporteAsistentes">
+            <td>{{ tipo.etiqueta | titlecase }}</td>
+            <td>{{ tipo.valor }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div> -->
+  <hr />
+  <div class="center">
+    <div class="texto">
+      <strong>Reporte Beneficios</strong>
+    </div>
+    <div class="table-responsive-md">
+      <table class="table table-bordered" style="border: none">
+        <thead>
+          <tr>
+            <th scope="col" style="padding-top: 10px; padding-bottom: 10px">
+              Tipo beneficio
+            </th>
+            <th scope="col" style="padding-top: 10px; padding-bottom: 10px">
+              Cantidad
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let beneficio of this.reporteBeneficios">
+            <td>
+              {{ beneficio.etiqueta | titlecase }}
+            </td>
+            <td>{{ beneficio.valor }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

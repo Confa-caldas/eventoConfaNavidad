@@ -1,0 +1,179 @@
+<form
+  class="form-login needs-validation"
+  autocomplete="off"
+  [formGroup]="formCreateUser"
+>
+  <div class="container navbar-welcome p-4 fondo2">
+    <div class="center">
+      <div class="texto">
+        <strong>Guardar Asistente</strong>
+      </div>
+      <div class="row p-0">
+        <div class="col-sm">
+          <label class="m-0 mb-1 mt-1">Documento</label>
+          <input
+            type="number"
+            formControlName="documento"
+            class="form-control shadows"
+            placeholder="* Documento"
+            placement="right"
+            [class.is-invalid]="getDoc"
+          />
+          <div
+            *ngIf="getDoc"
+            class="invalid-feedback animate__animated animate__fadeIn animate__fast"
+          >
+            <span class="badge badge-pill badge-danger d-block mt-2 text-left"
+              >DEBES INGRESAR EL DOCUMENTO</span
+            >
+          </div>
+        </div>
+        <div class="col-sm">
+          <label class="m-0 mb-1 mt-1">Nombre</label>
+          <input
+            type="text"
+            formControlName="nombre"
+            class="form-control shadows"
+            placeholder="* Nombre"
+            placement="right"
+            [class.is-invalid]="getName"
+          />
+          <div
+            *ngIf="getName"
+            class="invalid-feedback animate__animated animate__fadeIn animate__fast"
+          >
+            <span class="badge badge-pill badge-danger d-block mt-2 text-left"
+              >DEBES INGRESAR EL NOMBRE</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row p-0">
+        <div class="col-sm">
+          <label class="m-0 mb-1 mt-1">Documento Colaborador</label>
+          <input
+            type="number"
+            formControlName="docPadre"
+            class="form-control shadows"
+            placeholder="* Documento colaborador"
+            placement="right"
+            [class.is-invalid]="getDocPadre"
+          />
+          <div
+            *ngIf="getDocPadre"
+            class="invalid-feedback animate__animated animate__fadeIn animate__fast"
+          >
+            <span class="badge badge-pill badge-danger d-block mt-2 text-left"
+              >DEBES INGRESAR EL DOCUMENTO DEL COLABORADOR PRINCIPAL</span
+            >
+          </div>
+        </div>
+        <div class="col-sm">
+          <label class="m-0 mb-1 mt-1">Nombre Colaborador</label>
+          <input
+            type="text"
+            formControlName="nombrePadre"
+            class="form-control shadows"
+            placeholder="* Nombre del colaborador"
+            placement="right"
+            [class.is-invalid]="getNameFather"
+          />
+          <div
+            *ngIf="getNameFather"
+            class="invalid-feedback animate__animated animate__fadeIn animate__fast"
+          >
+            <span class="badge badge-pill badge-danger d-block mt-2 text-left"
+              >DEBES INGRESAR EL NOMBRE DEL COLABORADOR PRINCIPAL</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row p-0">
+        <div class="col-sm">
+          <label class="m-0 mb-1 mt-1">Tipo</label>
+          <div class="content-custom-select">
+            <select
+              class="form-control shadows"
+              (change)="capturar('tipo', $event.target.value)"
+              [class.is-invalid]="getTipo"
+            >
+              <option value="" selected hidden>* Tipo</option>
+              <option value="A">Acompañante</option>
+              <option value="C">Colaborador</option>
+              <option value="H1">Hijos 0 - 6 años</option>
+              <option value="H2">Hijos 7 - 18 años</option>
+              <option value="I">Independiente</option>
+              <option value="J">Consejero</option>
+              <option value="P">Pensionado</option>
+            </select>
+          </div>
+          <div
+            *ngIf="getTipo"
+            class="invalid-feedback animate__animated animate__fadeIn animate__fast"
+          >
+            <span class="badge badge-pill badge-danger d-block mt-2 text-left"
+              >DEBES SELECCIONAR EL TIPO DE ASISTENTE</span
+            >
+          </div>
+        </div>
+        <div class="col-sm" *ngIf="tipoAsistenteMenor">
+          <label class="m-0 mb-1 mt-1">Género</label>
+          <div class="content-custom-select">
+            <select
+              class="form-control shadows"
+              (change)="capturar('genero', $event.target.value)"
+              [class.is-invalid]="getGenero"
+            >
+              <option value="" selected hidden>* Género</option>
+              <option value="MASCULINO">Masculino</option>
+              <option value="FEMENINO">Femenino</option>
+            </select>
+          </div>
+          <div
+            *ngIf="getGenero"
+            class="invalid-feedback animate__animated animate__fadeIn animate__fast"
+          >
+            <span class="badge badge-pill badge-danger d-block mt-2 text-left"
+              >DEBES SELECCIONAR EL GÉNERO DEL ASISTENTE</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row p-0" *ngIf="tipoAsistenteMenor">
+        <div class="col-sm">
+          <label class="m-0 mb-1 mt-1">Edad</label>
+          <input
+            type="number"
+            formControlName="edad"
+            class="form-control shadows"
+            placeholder="* Edad"
+            placement="right"
+            [class.is-invalid]="getEdad"
+          />
+          <div
+            *ngIf="getEdad"
+            class="invalid-feedback animate__animated animate__fadeIn animate__fast"
+          >
+            <span class="badge badge-pill badge-danger d-block mt-2 text-left"
+              >DEBES INGRESAR UNA EDAD VÁLIDA</span
+            >
+          </div>
+        </div>
+        <div class="col-sm"></div>
+      </div>
+      <hr />
+    </div>
+    <div class="row p-0" style="margin: auto">
+      <div class="pr-2">
+        <button (click)="createUser()" class="btn btn-info" type="button">
+          Guardar
+        </button>
+      </div>
+      <div class="pr-2">
+        <button (click)="limpiarBusqueda()" class="btn btn-outline-danger">
+          Limpiar
+        </button>
+      </div>
+    </div>
+  </div>
+</form>
