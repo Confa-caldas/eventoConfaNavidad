@@ -61,7 +61,7 @@ export const environment = {
   // apiEventoNavidad:
   //   "https://app.confa.co:8687/eventoNavidadWsBonoRegalo/rest/evento/", //PARA ENTREGA DE BONO REGALO COLABORADORES
   apiEventoNavidad:
-    "https://app.confa.co:8687/eventoNavidadWsRegaloNino/rest/evento/", //PARA ENTREGA DE REGALOS
+    "https://alojamiento.confa.co/eventoNavidadWsRegaloNino/rest/evento/", //PARA ENTREGA DE REGALOS
 
   // apiEventoNavidad: "http://localhost:8081/eventoNavidadWs/rest/evento/",
 
