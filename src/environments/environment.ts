@@ -59,7 +59,7 @@ export const environment = {
   apiAlojamientoRecreacion:
     "https://app.confa.co:8687/recreacionWS/rest/alojamientoRecreacion/",
   apiEventoNavidad:
-    "https://app.confa.co:8687/eventoNavidadWsBonoRegalo/rest/evento/", //PARA ENTREGA DE BONO REGALO COLABORADORES
+    "https://alojamiento.confa.co/eventoNavidadWsBonoRegalo/rest/evento/", //PARA ENTREGA DE BONO REGALO COLABORADORES
   // apiEventoNavidad:
   //   "https://app.confa.co:8687/eventoNavidadWsRegaloNino/rest/evento/", //PARA ENTREGA DE REGALOS
 
