@@ -40,7 +40,8 @@ export class ReportesComponent implements OnInit {
         //this.reporteBeneficios = response;
         this.reporteBeneficios = response.filter(
           (item: any) =>
-            item.etiqueta === "BONO REGALO" || item.etiqueta === "REGALO"
+            // item.etiqueta === "BONO REGALO" || 
+          item.etiqueta === "REGALO"
         );
       });
   }
